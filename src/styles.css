@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+h1{
+    color: rgb(60, 60, 61);
+}
+
+p{
+    color: rgb(62, 65, 66);
+    text-align: center;
+}
+
+h3{
+text-align: center;
+}
+
+img{
+    width: 150px;
+    height: 180px;
+}
