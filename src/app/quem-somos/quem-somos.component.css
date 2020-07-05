@@ -1,0 +1,14 @@
+#about-us{display:block; width:100%; line-height:1.6em;}
+#about-us h2{margin-bottom:50px; padding-bottom:40px; font-size:80px; text-align:center; text-transform:uppercase; border-bottom:1px solid #CCCCCC;} /* DEMO USE ONLY - CAN BE DELETED */
+
+#about-us #about-intro{margin-bottom:50px;}
+#about-us #about-intro p{margin:20px 0 0 0; padding:0;}
+#about-us #about-intro p:first-child{margin-top:80;}
+
+
+.wrapper{margin-top: 80px;}
+
+
+
+
+

@@ -28,7 +28,9 @@ import { DestinosComponent } from './destinos/destinos.component';
       {path: 'contato', component: ContatoComponent},
       {path: 'quem-somos', component: QuemSomosComponent},
       {path: 'destinos', component: DestinosComponent},
-      {path: 'inicio', component: InicioComponent}
+      {path: 'inicio', component: InicioComponent},
+      {path: '', component: InicioComponent},
+      
     ])
   ],
   providers: [],

@@ -1,0 +1,17 @@
+H1{
+    color: rgb(73, 73, 73);
+    position: relative; 
+}
+
+img{
+    height: 80px;
+    width: 140px;
+    position: initial;
+}
+
+
+.jumbotron{
+    background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/soothing-background-music-14.jpg") ;
+    background-size: 2000px 600px;
+    height: 450px;
+  }
