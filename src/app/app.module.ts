@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { DestinosComponent } from './destinos/destinos.component';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,16 +21,20 @@ import { DestinosComponent } from './destinos/destinos.component';
     FooterComponent,
     InicioComponent,
     DestinosComponent
+    
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule,
     RouterModule.forRoot([
       {path: 'contato', component: ContatoComponent},
       {path: 'quem-somos', component: QuemSomosComponent},
       {path: 'destinos', component: DestinosComponent},
       {path: 'inicio', component: InicioComponent},
-      {path: '', component: InicioComponent},
+      {path: 'form', component: ContatoComponent},
+      {path: '', component: InicioComponent}
       
     ])
   ],
